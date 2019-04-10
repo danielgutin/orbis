@@ -1,0 +1,25 @@
+.PersonItem {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    border-left: 2px solid #FCA311;
+    border-right: 2px solid #FCA311;
+    border-top: 1px solid #FCA311;
+    border-bottom: 2px solid #FCA311;
+    background-color: #fff;
+}
+
+.PersonItem:nth-child(2n + 1) {
+    background: #ddd;
+}
+
+
+.PersonItem-status img {
+    height: 1rem;
+}
+
+.PersonItem-id {
+    font-weight: bold;
+}
